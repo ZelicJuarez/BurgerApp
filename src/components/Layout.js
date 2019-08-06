@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 
-const layout = props => (
+const Layout = props => (
   <Fragment>
     <div>Toolbar, SideDrawer, Backdrop</div>
     <main className="content">{props.children}</main>
   </Fragment>
 );
 
-export default layout;
+export default Layout;

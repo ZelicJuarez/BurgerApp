@@ -1,0 +1,25 @@
+.burger {
+    width: 100%;
+    margin: auto;
+    height: 25rem;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    @include respond(portrait) {
+        width: 35rem;
+        height: 30rem;
+    }
+    
+    @include respond(medium) {
+        width: 45rem;
+        height: 40rem;
+    }
+    
+    @include respond(mobile) {
+        width: 70rem;
+        height: 60rem;
+    }   
+}
+

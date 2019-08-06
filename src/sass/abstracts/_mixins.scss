@@ -1,0 +1,36 @@
+//MEDIA QUERY MANAGER
+/*
+
+500 - 400px: Portrait
+500 - 401px: Medium
+1000 - 700px: Mobile
+
+$breakpoint argument choices:
+
+- portrait
+- medium
+- mobile
+*/
+
+//1em = 16px
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == portrait {
+      @media only screen and (min-width: 62.5em) and (min-height: 43.75em) {
+        //1000px and 700px
+        @content;
+      }
+    }
+    @if $breakpoint == medium {
+      @media only screen and (min-width: 31.25em) and (min-height: 25.06em) {
+        //500px and 401px
+        @content;
+      }
+    }
+    @if $breakpoint == mobile {
+      @media only screen and (min-width: 31.25em) and (min-height: 25em) {
+        //500px and 400px
+        @content;
+      }
+    }
+  }

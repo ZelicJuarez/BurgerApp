@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-const burgerIngredients = (props) => {
-    return (
-        let ingredients = null;
+const BurgerIngredient = (props) => {
+        let ingredient = null;
 
         switch (props.type) {
             case ('bread-bottom'):
@@ -40,11 +39,11 @@ const burgerIngredients = (props) => {
         }
 
         return ingredient;
-    )
+    
 }
 
-burgerIngredients.proptypes = {
+BurgerIngredient.proptypes = {
     type: PropTypes.string.isRequired
 };
 
-export default burgerIngredients;
+export default BurgerIngredient;

@@ -1,7 +1,8 @@
+@import 'abstracts/mixins';
 @import "abstracts/variables";
 
 @import "base/base";
 
-@import "components/layout";
-
+@import 'layout/burger';
 @import "layout/burgerIngredients";
+@import "layout/layout";
