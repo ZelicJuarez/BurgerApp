@@ -22,7 +22,7 @@
     }
 
     &:hover,
-    :disabled {
+    &:disabled {
       background-color: #ac9980;
       color: #ccc;
       cursor: not-allowed;
@@ -40,7 +40,7 @@
     color: white;
 
     &:hover,
-    :active {
+    &:active {
       background-color: #daa972;
       color: white;
     }
@@ -51,7 +51,7 @@
     color: white;
 
     &:hover,
-    :active {
+    &:active {
       background-color: #99703f;
       color: white;
     }
