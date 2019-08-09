@@ -16,6 +16,8 @@ const OrderSummary = props => {
       <p>A delicious burger with the following ingredients:</p>
       <ul style={{ paddingLeft: "3rem" }}>{summaryIngredients}</ul>
       <p>Continue to checkout?</p>
+      <button>CANCEL</button>
+      <button>CONTINUE</button>
     </Fragment>
   );
 };
