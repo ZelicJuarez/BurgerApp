@@ -14,15 +14,13 @@
 
   & nav {
     height: 100%;
+
+    @media (max-width: 499px) {
+      display: none;
+    }
   }
 
   &__logo {
     height: 80%;
-  }
-}
-
-@media (max-width: 499px) {
-  .desktopOnly {
-    display: none;
   }
 }
