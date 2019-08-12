@@ -10,6 +10,10 @@
   padding: 3.2rem 1.6rem;
   box-sizing: border-box;
   transition: transform 0.3s ease-out;
+
+  &__logo {
+    height: 11%;
+  }
 }
 
 @media (min-width: 500px) {

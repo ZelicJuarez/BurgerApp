@@ -5,7 +5,9 @@ import NavigationItems from "./NavigationItems";
 const SideDrawer = props => {
   return (
     <div className="sideDrawer">
-      <Logo />
+      <div className="sideDrawer__logo">
+        <Logo />
+      </div>
       <nav>
         <NavigationItems />
       </nav>
