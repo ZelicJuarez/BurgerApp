@@ -4,12 +4,14 @@
 @import "base/animations";
 @import "base/base";
 
+@import 'components/buildControl';
+@import 'components/buildControls';
+@import 'components/burger';
+@import "components/burgerIngredients";
+
 @import 'layout/backdrop';
-@import 'layout/buildControl';
-@import 'layout/buildControls';
-@import 'layout/burger';
-@import "layout/burgerIngredients";
 @import 'layout/button';
 @import "layout/layout";
+@import "layout/logo";
 @import "layout/modal";
 @import "layout/toolbar";
