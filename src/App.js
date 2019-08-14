@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Layout from "./hoc/Layout";
 import BurgerBuilder from "./containers/BurgerBuilder";
+import Checkout from "./containers/Checkout";
 
 class App extends Component {
   //TESTING - NOT SHOWING BURGERBUILDER AFTER 5SEC
@@ -21,6 +22,7 @@ class App extends Component {
       <div className="App">
         <Layout>
           <BurgerBuilder />
+          <Checkout />
         </Layout>
       </div>
     );
