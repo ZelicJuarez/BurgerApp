@@ -1,0 +1,17 @@
+.contactData {
+  margin: 2rem auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 0.2rem 0.3rem #ccc;
+  border: 0.1rem solid #eee;
+  padding: 1rem;
+  box-sizing: border-box;
+
+  &__input {
+    display: block;
+  }
+
+  @media (min-width: 600px) {
+    width: 50rem;
+  }
+}
